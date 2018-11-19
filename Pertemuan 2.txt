@@ -1,0 +1,19 @@
+Pattern recognition    - menerjemahkan citra menjadi informasi 
+		         (pixel" warna akan di pecah)
+Computer Graphic       - Memvisualisasikan suatu informasi menjadi citra
+Artificial Intellegent - Menerjemahkan informasi input menjadi 
+                         informasi lain untuk mengambil keputusan
+AI memiliki 2 proses
+- Training
+- Testing
+
+Citra(image) - gambar pada 2 dimensi
+citra dibagi menjadi 2
+- citra tampak
+  - Gambar
+    - Foto    - Lukisan
+    - Gambar  - Citra optis
+- citra tak tampak
+  - Fungsi Matematis
+    - Kontinu
+    - Diskrit (Citra Digital)

@@ -1,0 +1,10 @@
+gambar= imread('Abdul.jpeg');
+gray=rgb2gray(gambar);
+noise=imnoise(gray,'Salt & Pepper',0.03);
+noise2=imnoise(gray,'Gaussian',0.2);
+start=medfilt2(gray);
+x=medfilt2(noise);
+y=medfilt2(noise2);
+figure,imshow(start),tittle('Pelembutan Citra Awal');
+figure,imshow(x),title('Pelembutan Citra Noise Salt&Pepper');
+figure,imshow(y),title('Pelembutan Citra Noise Gaussian');
